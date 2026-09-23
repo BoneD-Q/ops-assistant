@@ -1,0 +1,11 @@
+{
+  "buildings": {
+    "A1": {"name": "A座", "today_kwh": 1280.5, "month_kwh": 28640.0},
+    "B2": {"name": "B座", "today_kwh": 960.2, "month_kwh": 20110.0},
+    "C3": {"name": "C座", "today_kwh": 740.0, "month_kwh": 15880.0}
+  },
+  "alerts": {
+    "ALERT-1001": {"building": "A1", "level": "P2", "message": "变压器油温偏高", "status": "open"},
+    "ALERT-1002": {"building": "B2", "level": "P3", "message": "通讯短暂中断已恢复", "status": "open"}
+  }
+}

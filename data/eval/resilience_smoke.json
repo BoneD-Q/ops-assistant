@@ -1,0 +1,7 @@
+[
+  {"id": "r1", "name": "tool_timeout", "query": "A座今日用电多少？", "inject": "tool_timeout", "expect_alive": true, "expect_degraded": true},
+  {"id": "r2", "name": "tool_error", "query": "B2 本月用电", "inject": "tool_error", "expect_alive": true, "expect_degraded": true},
+  {"id": "r3", "name": "normal", "query": "会议室如何预约？", "inject": null, "expect_alive": true, "expect_degraded": false},
+  {"id": "r4", "name": "write_no_silent_retry", "query": "消掉告警 ALERT-1001", "inject": null, "expect_alive": true, "expect_proposal": true},
+  {"id": "r5", "name": "unknown_building", "query": "Z9 今日用电", "inject": null, "expect_alive": true, "expect_degraded": true}
+]

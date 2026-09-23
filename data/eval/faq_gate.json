@@ -1,0 +1,16 @@
+{
+  "must_hit": [
+    {"query": "访客登记怎么办理？", "expect_path": "faq"},
+    {"query": "园区 Wi-Fi 如何连接？", "expect_path": "faq"},
+    {"query": "会议室如何预约？", "expect_path": "faq"},
+    {"query": "停车月卡怎么办理？", "expect_path": "faq"},
+    {"query": "门禁卡丢失怎么办？", "expect_path": "faq"}
+  ],
+  "must_miss": [
+    {"query": "A座今日用电多少？", "expect_not_path": "faq"},
+    {"query": "帮我查一下 B2 本月电量", "expect_not_path": "faq"},
+    {"query": "消掉告警 ALERT-1001", "expect_not_path": "faq"},
+    {"query": "这个月账单尖峰电费是多少", "expect_not_path": "faq"},
+    {"query": "根据近一周负荷给点节能建议", "expect_not_path": "faq"}
+  ]
+}

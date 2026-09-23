@@ -1,0 +1,7 @@
+[
+  {"id": "q1", "query": "A座今日用电多少？", "expect_path": "workflow", "expect_intent": "today_power", "keywords": ["1280", "A"]},
+  {"id": "q2", "query": "B2 本月用电", "expect_path": "workflow", "expect_intent": "month_power", "keywords": ["20110", "B"]},
+  {"id": "q3", "query": "告警分级是怎么规定的？", "expect_path": "rag", "keywords": ["P1", "P2", "确认"]},
+  {"id": "q4", "query": "访客登记怎么办理？", "expect_path": "faq", "keywords": ["前台", "通行卡"]},
+  {"id": "q5", "query": "随便聊聊天气", "expect_path": "rag", "keywords": []}
+]
