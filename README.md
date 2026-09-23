@@ -1,4 +1,4 @@
-# ops-assistant-demo
+# ops-assistant
 
 > **最小复刻**：同构展示「FAQ 门禁 → 意图路由 → 工具/工作流 → RAG 兜底 → 写操作确认闸 → 离线评测」。  
 > **不是**任何公司的生产代码或数据；场景为虚构的「园区运维助手」。
@@ -15,11 +15,17 @@
 | Redis 会话 | 内存 dict |
 | enterprise_eval 大题集 | `data/eval/` 小回归集 |
 
+
+## 环境要求
+- Python 3.10+
+- 无需 GPU、无需 API Key
+
+
 ## 快速开始
 
 ```bash
-git clone https://github.com/<your-username>/ops-assistant-demo.git
-cd ops-assistant-demo
+git clone https://github.com/BoneD-Q/ops-assistant.git
+cd ops-assistant
 python -m venv .venv
 # Windows:
 .venv\Scripts\activate
