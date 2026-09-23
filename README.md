@@ -1,4 +1,4 @@
-# ops-assistant-demo
+# ops-assistant
 
 > **最小复刻**：同构展示「FAQ 门禁 → 意图路由 → 工具/工作流 → RAG 兜底 → 写操作确认闸 → 离线评测」。  
 > **不是**任何公司的生产代码或数据；场景为虚构的「园区运维助手」。
@@ -7,7 +7,7 @@
 
 | 真实任职项目（不公开） | 本 Demo |
 |------------------------|---------|
-| 电力运维内部助手 | 虚构园区运维助手 |
+| 公司运维内部助手 | 虚构园区运维助手 |
 | FAQ + BM25 多层门禁 | `app/faq_gate.py` + 合成 FAQ |
 | 意图 LoRA（Qwen2.5-7B） | 规则/关键词路由（可替换接口） |
 | MCP / A2A Knowledge | 进程内 mock 工具 |
@@ -19,7 +19,8 @@
 ## 快速开始
 
 ```bash
-cd demo
+git clone https://github.com/<你的用户名>/ops-assistant-demo.git
+cd ops-assistant-demo
 python -m venv .venv
 # Windows:
 .venv\Scripts\activate
